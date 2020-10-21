@@ -1,0 +1,86 @@
+<style>
+    html, body {
+        padding:0;                
+    }	
+
+    html {
+        box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+    .main {
+        position: relative;
+        margin: 0;
+        height: 210mm;
+        width: 210mm;
+        border: 1px solid gray;
+    }
+
+    div {
+        border: none !important;
+    }
+
+    .bigBox {
+        position: absolute;
+        padding:0;
+        margin: 0;
+        height:39mm;
+        width: 210mm;
+        border: 1px solid gray;
+        background-position: center;
+        background-size:cover;
+        color:rgba(255, 255, 255, .6);
+        line-height: 30mm;
+        font-size: 36px;
+        font-weight: bolder;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .mediumBox {
+        position: absolute;
+        padding:0;
+        margin: 0;
+        height:66mm;
+        width: 63.5mm;
+        border: 1px solid gray;
+        background-position: center;
+        background-size:cover;
+    }
+
+    .smallBox {
+        position: absolute;
+        padding:0;
+        margin: 0;
+        height:66mm;
+        width: 41.5mm;
+        border: 1px solid gray;
+        background-position: center;
+        background-size:cover;
+    }
+</style>
+
+<html>
+    <body>
+        <div class=main>
+            <div class="bigBox" style="top:0mm; left:0mm; background-image: url('/home/tyler/Pictures/feather2.png');"></div>
+
+            <div class="mediumBox" style="top:39mm; left:0mm; background-image: url('/home/tyler/Pictures/shells.png');"></div>
+            <div class="smallBox" style="top:39mm; left:63.5mm; background-image: url('/home/tyler/Pictures/crabclaw.png');"></div>
+            <div class="smallBox" style="top:39mm; left:105mm; background-image: url('/home/tyler/Pictures/seaweed.png');"></div>
+            <div class="mediumBox" style="top:39mm; left:146.5mm; background-image: url('/home/tyler/Pictures/blueshell.png');"></div>
+
+            <div class="mediumBox" style="bottom:39mm; left:0mm; background-image: url('/home/tyler/Pictures/stones.png');"></div>
+            <div class="smallBox" style="bottom:39mm; left:63.5mm; background-image: url('/home/tyler/Pictures/sanddollar.png');"></div>
+            <div class="smallBox" style="bottom:39mm; left:105mm; background-image: url('/home/tyler/Pictures/spiralshells.png');"></div>
+            <div class="mediumBox" style="bottom:39mm; left:146.5mm; background-image: url('/home/tyler/Pictures/coral.png');"></div>
+
+            <div class="bigBox" style="bottom:0mm; left:0mm; background-image: url('/home/tyler/Pictures/beach.png');">Any Other Treasures</div>
+        </div>
+        
+    </body>
+</html>
+
